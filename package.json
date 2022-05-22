@@ -10,8 +10,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@klarna/react-native-vector-drawable": "^0.3.0",
+    "@types/react-native-vector-icons": "^6.4.10",
     "react": "17.0.2",
-    "react-native": "0.68.2"
+    "react-native": "0.68.2",
+    "react-native-vector-icons": "^9.1.0",
+    "react-native-vector-image": "^0.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
