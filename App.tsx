@@ -1,27 +1,24 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, Text } from "react-native";
-// import VectorImage from 'react-native-vector-image';
-import Icon from "react-native-vector-icons/FontAwesome5";
+import { SafeAreaView, Text } from "react-native";
+import Header from "./src/sections/Header";
 
 const App = () => {
   return (
-    <SafeAreaView style={{ backgroundColor: "#4A306D", flex: 1 }}>
-      {/* <VectorImage source={require('./icon.svg')} /> */}
-      <Text>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse magNni
-        praesentium ex ab vitae tenetur in quod? Incidunt debitis nulla fugit
-        aliquid, aperiam asperiores ad suscipit iusto voluptate quisquam
-        corrupti?et
+    <SafeAreaView style={{ backgroundColor: "#fff", flex: 1 }}>
+      <Header />
+
+      <Text
+        style={{
+          // fontFamily: "Lato",
+        }}
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis qui
+        sunt saepe in ratione! Vel non cumque cum et ullam, reprehenderit
+        doloremque assumenda quis natus vitae inventore quasi corporis
+        similique?
       </Text>
-      <Icon name={"cog"} color={"black"} size={30} color="#F3F7F0" />
-      <Icon name={"history"} color={"black"} size={30} color="#F3F7F0" />
-      <Icon name={"award"} color={"black"} size={30} color="#F3F7F0" />
-      <Icon name={"trophy"} color={"black"} size={30} color="#F3F7F0" />
-      <Icon name="user" size={30} color="#F3F7F0" />
     </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default App;
